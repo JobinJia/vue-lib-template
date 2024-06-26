@@ -35,5 +35,8 @@
     "rimraf": "^5.0.7",
     "typescript": "^5.5.2",
     "unocss": "^0.61.0"
+  },
+  "lint-staged": {
+    "*": "eslint . --fix"
   }
 }
